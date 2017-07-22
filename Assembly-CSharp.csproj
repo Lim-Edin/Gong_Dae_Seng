@@ -50,6 +50,7 @@
      <Compile Include="Assets\02.Scripts\ButtonTextUI.cs" />
      <Compile Include="Assets\02.Scripts\CoinSpawner.cs" />
      <Compile Include="Assets\02.Scripts\FollowCam.cs" />
+     <Compile Include="Assets\02.Scripts\Lessons.cs" />
      <Compile Include="Assets\02.Scripts\MenuCtrl.cs" />
      <Compile Include="Assets\02.Scripts\PlayerCtrl.cs" />
      <Compile Include="Assets\02.Scripts\Portal.cs" />
