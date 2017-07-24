@@ -53,7 +53,9 @@
      <Compile Include="Assets\02.Scripts\Lessons.cs" />
      <Compile Include="Assets\02.Scripts\MenuCtrl.cs" />
      <Compile Include="Assets\02.Scripts\PlayerCtrl.cs" />
+     <Compile Include="Assets\02.Scripts\PlayerDialogCtrl.cs" />
      <Compile Include="Assets\02.Scripts\Portal.cs" />
+     <Compile Include="Assets\02.Scripts\TextBoxMgr.cs" />
      <Compile Include="Assets\02.Scripts\ThirdPersonCamera.cs" />
      <Compile Include="Assets\02.Scripts\UIMgr.cs" />
      <Compile Include="Assets\04.Images\Fantasy Skybox FREE\Demo\Scripts\GE_FantasySkyboxFREE_Demo.cs" />
@@ -107,6 +109,7 @@
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
      <None Include="Assets\FT_Infinity_lite\Shaders\FT_Beam.shader" />
+     <None Include="Assets\09.Text\aa.txt" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
@@ -145,6 +148,7 @@
      <None Include="Assets\FT_Infinity_lite\Shaders\FT_Light.shader" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
@@ -210,6 +214,10 @@
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{65DBB7D5-17D8-732F-AAAA-70D36CD67978}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "newHeart", "Assembly-CSharp-firstpass.csproj", "{65DBB7D5-17D8-732F-AAAA-70D36CD67978}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "newHeart", "Assembly-CSharp.csproj", "{95A8F6EF-3427-A483-B666-160C8A586B1D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "newHeart", "Assembly-CSharp-Editor.csproj", "{C0FF6DB9-866A-3454-52F0-A20DC1106D2C}"
@@ -13,6 +15,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65DBB7D5-17D8-732F-AAAA-70D36CD67978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DBB7D5-17D8-732F-AAAA-70D36CD67978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65DBB7D5-17D8-732F-AAAA-70D36CD67978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65DBB7D5-17D8-732F-AAAA-70D36CD67978}.Release|Any CPU.Build.0 = Release|Any CPU
 		{95A8F6EF-3427-A483-B666-160C8A586B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{95A8F6EF-3427-A483-B666-160C8A586B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95A8F6EF-3427-A483-B666-160C8A586B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
