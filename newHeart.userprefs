@@ -1,14 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\02.Scripts\PlayerDialogCtrl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\02.Scripts\Portal.cs">
     <Files>
       <File FileName="Assets\02.Scripts\MenuCtrl.cs" Line="1" Column="1" />
-      <File FileName="Assets\02.Scripts\PlayerCtrl.cs" Line="139" Column="49" />
-      <File FileName="Assets\02.Scripts\PlayerDialogCtrl.cs" Line="12" Column="48" />
-      <File FileName="Assets\02.Scripts\TextBoxMgr.cs" Line="26" Column="4" />
-      <File FileName="Assets\02.Scripts\Portal.cs" Line="60" Column="4" />
-      <File FileName="Assets\09.Text\aa.txt" Line="14" Column="9" />
-      <File FileName="Assets\02.Scripts\ButtonTextUI.cs" Line="30" Column="3" />
+      <File FileName="Assets\02.Scripts\PlayerCtrl.cs" Line="1" Column="1" />
+      <File FileName="Assets\02.Scripts\ButtonTextUI.cs" Line="1" Column="1" />
+      <File FileName="Assets\02.Scripts\Portal.cs" Line="110" Column="26" />
+      <File FileName="Assets\02.Scripts\PlayerDialogCtrl.cs" Line="1" Column="1" />
+      <File FileName="Assets\09.Text\aa.txt" Line="1" Column="1" />
+      <File FileName="Assets\02.Scripts\TextBoxMgr.cs" Line="1" Column="1" />
       <File FileName="Assets\02.Scripts\CoinSpawner.cs" Line="1" Column="1" />
       <File FileName="Assets\02.Scripts\Lessons.cs" Line="1" Column="1" />
     </Files>
