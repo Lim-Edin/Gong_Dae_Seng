@@ -1,16 +1,21 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\02.Scripts\Portal.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\02.Scripts\FollowCam.cs">
     <Files>
+      <File FileName="Assets\02.Scripts\FscoreCtrl.cs" Line="1" Column="1" />
       <File FileName="Assets\02.Scripts\MenuCtrl.cs" Line="1" Column="1" />
-      <File FileName="Assets\02.Scripts\PlayerCtrl.cs" Line="1" Column="1" />
-      <File FileName="Assets\02.Scripts\ButtonTextUI.cs" Line="1" Column="1" />
-      <File FileName="Assets\02.Scripts\Portal.cs" Line="110" Column="26" />
+      <File FileName="Assets\02.Scripts\PlayerCtrl.cs" Line="70" Column="3" />
+      <File FileName="Assets\02.Scripts\BombCtrl.cs" Line="1" Column="1" />
+      <File FileName="Assets\02.Scripts\LifeBar.cs" Line="1" Column="1" />
       <File FileName="Assets\02.Scripts\PlayerDialogCtrl.cs" Line="1" Column="1" />
+      <File FileName="Assets\02.Scripts\ButtonTextUI.cs" Line="1" Column="1" />
+      <File FileName="Assets\02.Scripts\Portal.cs" Line="1" Column="1" />
       <File FileName="Assets\09.Text\aa.txt" Line="1" Column="1" />
       <File FileName="Assets\02.Scripts\TextBoxMgr.cs" Line="1" Column="1" />
       <File FileName="Assets\02.Scripts\CoinSpawner.cs" Line="1" Column="1" />
       <File FileName="Assets\02.Scripts\Lessons.cs" Line="1" Column="1" />
+      <File FileName="Assets\02.Scripts\ThirdPersonCamera.cs" Line="20" Column="102" />
+      <File FileName="Assets\02.Scripts\FollowCam.cs" Line="20" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

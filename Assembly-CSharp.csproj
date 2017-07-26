@@ -46,11 +46,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\02.Scripts\BombCtrl.cs" />
      <Compile Include="Assets\02.Scripts\BrickCtrl.cs" />
      <Compile Include="Assets\02.Scripts\ButtonTextUI.cs" />
      <Compile Include="Assets\02.Scripts\CoinSpawner.cs" />
      <Compile Include="Assets\02.Scripts\FollowCam.cs" />
+     <Compile Include="Assets\02.Scripts\FscoreCtrl.cs" />
      <Compile Include="Assets\02.Scripts\Lessons.cs" />
+     <Compile Include="Assets\02.Scripts\LifeBar.cs" />
      <Compile Include="Assets\02.Scripts\MenuCtrl.cs" />
      <Compile Include="Assets\02.Scripts\PlayerCtrl.cs" />
      <Compile Include="Assets\02.Scripts\PlayerDialogCtrl.cs" />
@@ -60,9 +63,6 @@
      <Compile Include="Assets\02.Scripts\UIMgr.cs" />
      <Compile Include="Assets\04.Images\Fantasy Skybox FREE\Demo\Scripts\GE_FantasySkyboxFREE_Demo.cs" />
      <Compile Include="Assets\04.Images\Fantasy Skybox FREE\Demo\Scripts\GE_FantasySkyboxFREE_UIs.cs" />
-     <Compile Include="Assets\04.Images\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCamera.cs" />
-     <Compile Include="Assets\04.Images\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCameraUI.cs" />
-     <Compile Include="Assets\04.Images\GE Common Assets\GE Toggle Full Screen\Scripts\GE_ToggleFullScreenUI.cs" />
      <Compile Include="Assets\04.Images\GE Common Assets\GE Touch Joystick\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\04.Images\GE Common Assets\GE Touch Joystick\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
      <Compile Include="Assets\04.Images\GE Common Assets\GE Touch Joystick\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
@@ -96,6 +96,19 @@
      <Compile Include="Assets\05.models\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_DemoPlaySound.cs" />
      <Compile Include="Assets\05.models\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_OpenOtherScene.cs" />
      <Compile Include="Assets\05.models\GUI Animator\GUI Animator FREE\Demo Basic (CSharp)\Scripts\GUIAnimatorFREEDemo.cs" />
+     <Compile Include="Assets\06.Sounds\ExplosionPhysicsForce.cs" />
+     <Compile Include="Assets\06.Sounds\ParticleSystemMultiplier.cs" />
+     <Compile Include="Assets\HPParticle\Scripts\AlwaysFace.cs" />
+     <Compile Include="Assets\HPParticle\Scripts\CameraScript.cs" />
+     <Compile Include="Assets\HPParticle\Scripts\DestroyAfter.cs" />
+     <Compile Include="Assets\HPParticle\Scripts\GUICameraScript.cs" />
+     <Compile Include="Assets\HPParticle\Scripts\GUIHPParticleScript.cs" />
+     <Compile Include="Assets\HPParticle\Scripts\GUIProjectileSettingsScript.cs" />
+     <Compile Include="Assets\HPParticle\Scripts\HPParticleScript.cs" />
+     <Compile Include="Assets\HPParticle\Scripts\HPScript.cs" />
+     <Compile Include="Assets\HPParticle\Scripts\PlayerCollisionScript.cs" />
+     <Compile Include="Assets\HPParticle\Scripts\ProjectileScript.cs" />
+     <Compile Include="Assets\HPParticle\Scripts\ProjectileShooterScript.cs" />
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
@@ -142,6 +155,7 @@
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
      <None Include="Assets\04.Images\Fantasy Skybox FREE\Fog and Ambient reference.txt" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\03.Prefabs\Prefabs\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
      <None Include="Assets\05.models\TaichiCharacterPack\Readme.txt" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
@@ -154,6 +168,7 @@
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
      <None Include="Assets\05.models\TaichiCharacterPack\Releasenote.txt" />
+     <None Include="Assets\03.Prefabs\Prefabs\Shaders\PriorityParticleAddSoft.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
@@ -185,6 +200,7 @@
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\HPParticle\Third Person Character\Third Person Character Guidelines.txt" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
@@ -197,6 +213,7 @@
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\03.Prefabs\Prefabs\Shaders\PriorityParticleAdd.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
      <None Include="Assets\01.Scenes\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
@@ -236,6 +253,8 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{65DBB7D5-17D8-732F-AAAA-70D36CD67978}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{95780216-A5F0-72DB-909C-3DED355FFA8D}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
