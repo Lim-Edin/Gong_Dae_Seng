@@ -64,4 +64,3 @@ C:\Users\njs04\Desktop\newHeart\Temp\bin\Debug\UnityEngine.Analytics.xml
 C:\Users\njs04\Desktop\newHeart\Temp\bin\Debug\UnityEngine.HoloLens.xml
 C:\Users\njs04\Desktop\newHeart\Temp\bin\Debug\UnityEngine.VR.xml
 C:\Users\njs04\Desktop\newHeart\obj\Debug\Assembly-CSharp.pdb
-C:\Users\njs04\Desktop\newHeart\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
