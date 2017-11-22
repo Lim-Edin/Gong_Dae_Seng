@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 8e644204cc28bd446bce516c44e9406c
+timeCreated: 1500974139
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - playerScript: {instanceID: 0}
+  - BS: {instanceID: 0}
+  - startText: {instanceID: 0}
+  - quitText: {instanceID: 0}
+  - HyuHakText: {instanceID: 0}
+  - pauseText: {instanceID: 0}
+  - continueText: {instanceID: 0}
+  - sparkEffect: {fileID: 1000013330418600, guid: 4f6499cf84ebb1747b0a6161c75495c1,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
